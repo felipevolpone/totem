@@ -13,6 +13,7 @@
     tapping-term-ms = <200>;
     flavor = "balanced";
     quick-tap-ms = <150>;
+};
 
 &mt {
     tapping-term-ms = <280>;
@@ -27,10 +28,10 @@
 
         qwerty {
             bindings = <
-           &kp Q               &kp W           &kp E            &kp R             &kp T                 &kp Y    &kp U             &kp I           &kp O         &kp P
-           &hm_l LGUI A        &hm_l LALT S    &hm_shift_l D    &hm_l LALT F      &kp G                 &kp H    &hm_r LCTRL J     &hm_shift_r K   &hm_r LALT L  &kp SEMI
-&kp LCTRL  &kp Z               &kp X           &kp C            &kp V             &kp B                 &kp N    &kp M             &kp COMMA       &kp DOT       &kp FSLH  &kp APOS
-                                               &mo 4  &lt 2 SPACE       &kp ESCAPE            &mt LEFT_SHIFT ENTER  &lt 3 BACKSPACE   &kp LEFT_SHIFT
+           &kp Q               &kp W           &kp E            &kp R             &kp T                 &kp Y    &kp U             &kp I             &kp O         &kp P
+           &hm_l LGUI A        &hm_l LALT S    &hm_shift_l D    &hm_l LALT F      &kp G                 &kp H    &hm_r LCTRL J     &hm_shift_r K     &hm_r LALT L  &kp SEMI
+&kp LCTRL  &kp Z               &kp X           &kp C            &kp V             &kp B                 &kp N    &kp M             &kp COMMA         &kp DOT       &kp FSLH  &kp APOS
+                                               &mo 4            &lt 2 SPACE       &kp ESCAPE            &mt LEFT_SHIFT ENTER       &lt 3 BACKSPACE   &kp LEFT_SHIFT
             >;
         };
 
