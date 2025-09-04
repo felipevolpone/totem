@@ -29,7 +29,6 @@
 #define NUMBERS 4
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
-#include "mouse.dtsi" // Must be sourced after HRM-combo hack.
 
 
 / {
