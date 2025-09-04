@@ -22,6 +22,12 @@
     flavor = "balanced";
 };
 
+#define QWERTY 0
+#define COLEMAK 1
+#define SYMBOLS 2
+#define DEVICE 3
+#define NUMBERS 4
+
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
 
 / {
