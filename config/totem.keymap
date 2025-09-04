@@ -22,6 +22,8 @@
     flavor = "balanced";
 };
 
+#include "combos.dtsi" // Must be sourced after HRM-combo hack.
+
 / {
     keymap {
         compatible = "zmk,keymap";
