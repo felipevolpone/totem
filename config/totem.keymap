@@ -88,8 +88,6 @@
         //                                   &trans           &trans           &trans            &trans           U_WH_U        U_WH_D
         //     >;
         // };
-)
-
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
