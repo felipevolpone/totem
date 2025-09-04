@@ -1,3 +1,4 @@
+#include "includes/behav_home_row_mods.dtsi"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -21,7 +22,7 @@
         qwerty {
             bindings = <
            &kp Q               &kp W           &kp E  &kp R             &kp T         &kp Y                 &kp U             &kp I           &kp O    &kp P
-           &mt LEFT_COMMAND A  &mt LEFT_ALT S  &kp D  &mt LEFT_SHIFT F  &kp G         &kp H                 &mt LEFT_SHIFT J  &mt LEFT_ALT K  &kp L    &kp SEMI
+           &hm_l LGUI A  &mt LEFT_ALT S  &kp D  &mt LEFT_SHIFT F  &kp G         &kp H                 &mt LEFT_SHIFT J  &mt LEFT_ALT K  &kp L    &kp SEMI
 &kp LCTRL  &kp Z               &kp X           &kp C  &kp V             &kp B         &kp N                 &kp M             &kp COMMA       &kp DOT  &kp FSLH  &kp APOS
                                                &mo 4  &lt 2 SPACE       &kp ESCAPE    &mt LEFT_SHIFT ENTER  &lt 3 BACKSPACE   &kp LEFT_SHIFT
             >;
