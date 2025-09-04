@@ -29,6 +29,8 @@
 #define NUMBERS 4
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
+#include "mouse.dtsi" // Must be sourced after HRM-combo hack.
+
 
 / {
     keymap {
@@ -78,6 +80,17 @@
                         &trans  &trans  &trans    &trans  &kp BACKSPACE  &trans
             >;
         };
+
+        mouse {
+            binding = < 
+        &trans           &trans           &trans           &trans           &trans            &trans           &kp PG_UP     U_MS_U         &kp PG_DN    &trans         ,
+        &trans           &trans           &trans           &trans           &trans            U_WH_L           U_MS_L        U_MS_D         U_MS_R       U_WH_R      ,
+        &trans           &trans           &trans           &trans           &trans            &trans           &mkp LCLK     &mkp MCLK      &mkp RCLK    &trans         ,
+                                          &trans           &trans           &trans            &trans           U_WH_U        U_WH_D
+            >;
+        };
+)
+
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
