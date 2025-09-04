@@ -28,10 +28,10 @@
 
         qwerty {
             bindings = <
-           &kp Q               &kp W           &kp E            &kp R             &kp T                 &kp Y           &kp U             &kp I             &kp O         &kp P
+           &kp Q               &kp W           &kp E                   &kp R             &kp T                 &kp Y           &kp U             &kp I                    &kp O         &kp P
            &hm_l LGUI A        &hm_l LALT S    &hm_shift_l LSHIFT D    &hm_l LCTRL F     &kp G                 &kp H           &hm_r LCTRL J     &hm_shift_r LSHIFT K     &hm_r LALT L  &kp SEMI
-&kp LCTRL  &kp Z               &kp X           &kp C            &kp V             &kp B                 &kp N           &kp M             &kp COMMA         &kp DOT       &kp FSLH  &kp APOS
-                                               &mo 4            &lt 2 SPACE       &kp ESCAPE            &kp ENTER       &lt 3 BACKSPACE   &kp LEFT_SHIFT
+&kp LCTRL  &kp Z               &kp X           &kp C                   &kp V             &kp B                 &kp N           &kp M             &kp COMMA                &kp DOT       &kp FSLH  &kp APOS
+                                               &mo 4                   &lt 2 SPACE       &kp ESCAPE            &kp ENTER       &lt 3 BACKSPACE   &kp LEFT_SHIFT
             >;
         };
 
