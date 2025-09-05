@@ -1,6 +1,6 @@
 // Make sure settings.dtsi is included before this file
 
-#define HM_TAPPING_TERM 240
+#define HM_TAPPING_TERM 200
 #define HM_TAPPING_TERM_FAST 175
 #define HM_PRIOR_IDLE 150
 
