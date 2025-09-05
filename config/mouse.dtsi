@@ -40,17 +40,6 @@
   };
 };
 
-&msc_input_listener {
-  warp {
-    layers = <NAV>;
-    input-processors = <&zip_scroll_scaler 2 1>;
-  };
-  precision {
-    layers = <FN>;
-    input-processors = <&zip_scroll_scaler 1 2>;
-  };
-};
-
 #define U_MS_U &mmv MOVE_UP
 #define U_MS_D &mmv MOVE_DOWN
 #define U_MS_L &mmv MOVE_LEFT
