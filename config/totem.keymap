@@ -40,6 +40,11 @@
             bindings = <&to 5>;
             key-positions = <35 34>;
         };
+
+        shortcat {
+            bindings = <&kp LG(LA(LS(S)))>;
+            key-positions = <33 36>;
+        };
     };
 
     keymap {
