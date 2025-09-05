@@ -60,6 +60,11 @@
             bindings = <&tmux_new_window>;
             key-positions = <6 7>;
         };
+
+        tmux-new-window {
+            bindings = <&tmux_new_window>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
