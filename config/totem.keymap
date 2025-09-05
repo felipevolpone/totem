@@ -45,6 +45,20 @@
             bindings = <&kp LG(LA(LS(S)))>;
             key-positions = <33 36>;
         };
+
+        tmux-next-window {
+            bindings = <&tmux_next_window>;
+            key-positions = <16 17>;
+        };
+    };
+
+    macros {
+        tmux_next_window: tmux_next_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp N>;
+            label = "TMUX_NEXT_WINDOW";
+        };
     };
 
     keymap {
