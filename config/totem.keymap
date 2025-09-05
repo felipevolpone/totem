@@ -91,21 +91,12 @@
 
         layer_5 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans          &trans           &trans
-        &trans  &trans  &trans  &to 0   &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
+        &trans  &trans  &trans  &trans  &trans      &trans  U_WH_U          U_MS_U          U_WH_D           &trans
+        &trans  &trans  &trans  &to 0   &trans      &trans  U_MS_L          U_MS_D          U_MS_R           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &trans          &trans           &trans  &trans
                         &trans  &trans  &mkp MB1    &trans  &trans          &trans
             >;
         };
-
-        // mouse {
-        //     binding = < 
-        // &trans           &trans           &trans           &trans           &trans            &trans           &kp PG_UP     U_MS_U         &kp PG_DN    &trans         ,
-        // &trans           &trans           &trans           &trans           &trans            U_WH_L           U_MS_L        U_MS_D         U_MS_R       U_WH_R      ,
-        // &trans           &trans           &trans           &trans           &trans            &trans           &mkp LCLK     &mkp MCLK      &mkp RCLK    &trans         ,
-        //                                   &trans           &trans           &trans            &trans           U_WH_U        U_WH_D
-        //     >;
-        // };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
