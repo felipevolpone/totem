@@ -48,7 +48,17 @@
 
         tmux-next-window {
             bindings = <&tmux_next_window>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
+        };
+
+        tmux-prev-window {
+            bindings = <&tmux_previous_window>;
+            key-positions = <17 16>;
+        };
+
+        tmux-new-window {
+            bindings = <&tmux_new_window>;
+            key-positions = <6 7>;
         };
     };
 
@@ -58,6 +68,20 @@
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp N>;
             label = "TMUX_NEXT_WINDOW";
+        };
+
+        tmux_previous_window: tmux_previous_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp H>;
+            label = "TMUX_PREVIOUS_WINDOW";
+        };
+
+        tmux_new_window: tmux_new_window {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp N>;
+            label = "TMUX_NEW_WINDOW";
         };
     };
 
