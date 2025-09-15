@@ -112,28 +112,28 @@
 
         symbols {
             bindings = <
-       &kp GRAVE      &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN        &kp ASTERISK  &kp DOLLAR      &kp PERCENT        &kp SQT    &none
-       &kp BACKSLASH  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION    &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT  &kp SLASH
-&none  &kp PIPE       &kp UNDER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL       &kp LS(AMPERSAND)  &none      &none      &none
+       &kp GRAVE      &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK  &kp DOLLAR      &kp PERCENT    &kp SQT    &none
+       &kp BACKSLASH  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp SLASH
+&none  &kp PIPE       &kp UNDER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL       &kp AMPERSAND  &none      &none      &none
                                  &trans                &trans                 &trans             &trans        &kp BACKSPACE   &none
             >;
         };
 
         device {
             bindings = <
-       &none  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &caps_word  &none    &none        &none  &tog 1
-       &none  &kp C_VOLUME_DOWN     &kp K_MUTE             &kp C_VOLUME_UP     &none                  &none       &kp TAB  &kp LS(TAB)  &none  &to 0
-&none  &none  &kp C_PREV            &kp C_PLAY_PAUSE       &kp C_NEXT          &none                  &none       &none    &none        &none  &none   &none
-                                    &none                  &none               &none                  &none       &none    &none
+       &none  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)    &caps_word  &kp LA(LEFT)  &kp LA(RIGHT)  &none  &tog 1
+       &none  &kp C_VOLUME_DOWN     &kp K_MUTE             &kp C_VOLUME_UP     &none                  &none       &kp TAB       &kp LS(TAB)    &none  &to 0
+&none  &none  &kp C_PREV            &kp C_PLAY_PAUSE       &kp C_NEXT          &none                  &none       &none         &none          &none  &none   &none
+                                    &none                  &none               &none                  &none       &none         &none
             >;
         };
 
         numbers {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans     &kp N7         &kp N8        &kp N9        &trans
-        &trans  &trans  &trans  &trans  &trans    &kp N0     &kp NUMBER_4   &kp N5        &kp NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp COLON  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                        &trans  &trans  &trans    &trans     &kp BACKSPACE  &trans
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8        &kp N9        &kp N0
+        &trans        &trans        &trans        &trans        &trans    &kp N0        &kp NUMBER_4   &kp N5        &kp NUMBER_6  &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &kp COLON     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                                    &trans        &trans        &trans    &trans        &kp BACKSPACE  &trans
             >;
         };
 
