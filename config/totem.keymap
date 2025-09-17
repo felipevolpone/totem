@@ -40,11 +40,6 @@
     combos {
         compatible = "zmk,combos";
 
-        shortcat {
-            bindings = <&kp LG(LA(LS(S)))>;
-            key-positions = <33 36>;
-        };
-
         tmux-next-window {
             bindings = <&tmux_next_window>;
             key-positions = <17 18>;
@@ -91,8 +86,8 @@
             bindings = <
            &kp Q         &kp W         &kp E                 &kp R          &kp T         &kp Y      &kp U            &kp I                 &kp O         &kp P
            &hm_l LGUI A  &hm_l LALT S  &hm_shift_l LSHIFT D  &hm_l LCTRL F  &kp G         &kp H      &hm_r LCTRL J    &hm_shift_r LSHIFT K  &hm_r LALT L  &kp SEMI
-&kp LCTRL  &kp Z         &kp X         &kp C                 &kp V          &kp B         &kp N      &kp M            &kp COMMA             &kp DOT       &kp FSLH  &kp APOS
-                                       &mo 4                 &lt 2 SPACE    &kp ESCAPE    &kp ENTER  &lt 3 BACKSPACE  &kp LEFT_SHIFT
+&kp LCTRL  &kp Z         &kp X         &kp C                 &kp V          &kp B         &kp N      &kp M            &kp COMMA             &kp DOT       &kp QUESTION  &kp LG(LS(LA(S)))
+                                       &mo 4                 &lt 2 SPACE    &kp ESCAPE    &kp ENTER  &lt 3 BACKSPACE  &mo 4
             >;
         };
 
@@ -107,10 +102,10 @@
 
         symbols {
             bindings = <
-       &kp GRAVE      &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK  &kp DOLLAR      &kp PERCENT    &kp SQT    &none
-       &kp BACKSLASH  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp SLASH
-&none  &kp PIPE       &kp UNDER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL       &kp AMPERSAND  &none      &none      &none
-                                 &trans                &trans                 &trans             &trans        &kp BACKSPACE   &none
+       &kp GRAVE  &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION    &kp ASTERISK  &kp DOLLAR      &kp PERCENT    &kp SQT    &kp PIPE
+       &kp TILDE  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN        &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &kp SLASH
+&none  &none      &kp UNDER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH           &kp COLON     &kp EQUAL       &kp AMPERSAND  &kp CARET  &none      &none
+                             &trans                &trans                 &trans             &trans        &kp BACKSPACE   &none
             >;
         };
 
