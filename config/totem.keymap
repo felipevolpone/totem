@@ -40,11 +40,6 @@
     combos {
         compatible = "zmk,combos";
 
-        mouse {
-            bindings = <&to 0>;
-            key-positions = <35 34>;
-        };
-
         shortcat {
             bindings = <&kp LG(LA(LS(S)))>;
             key-positions = <33 36>;
@@ -133,7 +128,7 @@
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8        &kp N9        &kp N0
         &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &kp N0        &kp NUMBER_4   &kp N5        &kp NUMBER_6  &trans
 &trans  &trans        &trans        &trans        &trans        &trans    &kp COLON     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                                    &trans        &trans        &trans    &trans        &kp BACKSPACE  &trans
+                                    &trans        &kp SPACE     &trans    &trans        &kp BACKSPACE  &trans
             >;
         };
     };
