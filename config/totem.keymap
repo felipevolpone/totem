@@ -41,7 +41,7 @@
         compatible = "zmk,combos";
 
         mouse {
-            bindings = <&to 5>;
+            bindings = <&to 0>;
             key-positions = <35 34>;
         };
 
@@ -94,10 +94,10 @@
 
         qwerty {
             bindings = <
-           &kp Q         &kp W         &kp E                 &kp R         &kp T         &kp Y      &kp U            &kp I                 &kp O         &kp P
-           &hm_l LGUI A  &hm_l LALT S  &hm_shift_l LSHIFT D  &hm_l LCTRL F &kp G         &kp H      &hm_r LCTRL J    &hm_shift_r LSHIFT K  &hm_r LALT L  &kp SEMI
-&kp LCTRL  &kp Z         &kp X         &kp C                 &kp V         &kp B         &kp N      &kp M            &kp COMMA             &kp DOT       &kp FSLH  &kp APOS
-                                       &mo 4                 &lt 2 SPACE   &kp ESCAPE    &kp ENTER  &lt 3 BACKSPACE  &kp LEFT_SHIFT
+           &kp Q         &kp W         &kp E                 &kp R          &kp T         &kp Y      &kp U            &kp I                 &kp O         &kp P
+           &hm_l LGUI A  &hm_l LALT S  &hm_shift_l LSHIFT D  &hm_l LCTRL F  &kp G         &kp H      &hm_r LCTRL J    &hm_shift_r LSHIFT K  &hm_r LALT L  &kp SEMI
+&kp LCTRL  &kp Z         &kp X         &kp C                 &kp V          &kp B         &kp N      &kp M            &kp COMMA             &kp DOT       &kp FSLH  &kp APOS
+                                       &mo 4                 &lt 2 SPACE    &kp ESCAPE    &kp ENTER  &lt 3 BACKSPACE  &kp LEFT_SHIFT
             >;
         };
 
@@ -131,17 +131,9 @@
         numbers {
             bindings = <
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7         &kp N8        &kp N9        &kp N0
-        &trans        &trans        &trans        &trans        &trans    &kp N0        &kp NUMBER_4   &kp N5        &kp NUMBER_6  &trans
+        &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &kp N0        &kp NUMBER_4   &kp N5        &kp NUMBER_6  &trans
 &trans  &trans        &trans        &trans        &trans        &trans    &kp COLON     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
                                     &trans        &trans        &trans    &trans        &kp BACKSPACE  &trans
-            >;
-        };
-
-        mouse {
-            bindings = <
-        &trans  &trans  &trans                       &trans  &trans    &trans U_WH_U U_MS_U U_WH_D  &trans  &to 0   &trans         &trans
-        &trans  &trans  &trans U_MS_L U_MS_D U_MS_R  &trans  &trans    &trans                       &trans  &trans  &trans         &trans
-&trans  &trans  &trans  &trans                       &trans  &trans    &trans                       &trans  &trans  &trans U_BTN1  &trans
             >;
         };
     };
